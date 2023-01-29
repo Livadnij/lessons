@@ -1,0 +1,66 @@
+/* ----------------- */
+/* --RESET STYLES--- */
+/* ----------------- */
+@import url("reset.css");
+
+.header {
+}
+a {
+  color: rgb(211, 32, 12);
+}
+div {
+  color: rgb(122, 15, 221);
+}
+#p-3 {
+  color: rgb(223, 230, 15);
+}
+div.title_2 {
+  color: green;
+}
+.lesson,
+.list {
+  color: rgb(124, 122, 122);
+}
+.text__text p {
+  color: rgb(20, 223, 223);
+}
+.header__container {
+}
+.header-main__title {
+}
+.menu__body {
+}
+.menu__list {
+}
+.menu__item {
+}
+.menu__link {
+}
+.page {
+}
+.main__container {
+}
+.title_1 {
+}
+.text {
+}
+.picture {
+}
+.title_2 {
+}
+.title_3 {
+}
+.think {
+}
+.list {
+}
+.sub-list {
+}
+.footer {
+}
+.main-footer {
+}
+
+.text ~ p {
+  color: red;
+}
