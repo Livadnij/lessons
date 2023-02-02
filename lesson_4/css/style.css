@@ -1,0 +1,95 @@
+/* ----------------- */
+/* --RESET STYLES--- */
+/* ----------------- */
+@import url("reset.css");
+
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Pacifico:regular;display=swap);
+
+/* Підключення вручну */
+
+@font-face {
+	font-family: "MADEEvolve";
+	src: url("/fonts/MADEEvolveSans-Bold.woff2") format("woff2"), url("../fonts/MADEEvolveSans-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "MADEEvolve";
+	src: url("../fonts/MADEEvolveSans-Medium.woff2") format("woff2"), url("../fonts/MADEEvolveSans-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "MADEEvolve";
+	src: url("../fonts/MADEEvolveSans-Light.woff2") format("woff2"), url("../fonts/MADEEvolveSans-Thin.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	font-family: "MADEEvolve", sans-serif; /* Times New Roman  за замовченням */
+	font-size: 20px; /* 16 за замовченням */
+	font-weight: 300; /* 400 (Regular) за замовченням */
+	color: #6c757d; /* #000000 (чорний) за замовченням */
+  line-height: 1;
+  text-indent: 20px;
+}
+
+.wrapper {
+}
+.header {
+}
+.header__container {
+}
+.header-main__title {
+}
+.text {
+  word-spacing:  10px;
+}
+.picture {
+}
+.page {
+}
+.main__container {
+}
+.title_1 {
+}
+.menu__body {
+  color: darkcyan;
+  line-height: 1.5;
+  font-weight: 500;
+}
+.menu__list {
+}
+.menu__item {
+}
+.menu__link {
+}
+.menu__item__second {
+}
+.title_2 {
+}
+.title_3 {
+}
+.footer {
+  font-weight: 500;
+  color: darkcyan;
+  text-decoration: underline;
+  line-height: 2;
+}
+
+h1,h2{
+  font-family: "Pacifico", sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+}
+h3{
+  font-family: "MADEEvolve", sans-serif;
+  font-weight: 700;
+}
